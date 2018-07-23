@@ -1,0 +1,170 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	background-color: #000000;
+	align-content: center;
+}
+
+h3 {
+	font-family: 'Unica One', cursive;
+}
+
+a {
+    color: #b348d2; 
+    text-decoration: none;  
+}
+
+a:link a:visited a:active {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+.header {
+	background-image: url('../img/hero.jpg');
+	background-size: 900px;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: 'Unica One', cursive;
+	width: 1200px;
+	height: 800px;
+	clear:both;
+}
+
+#name {
+	width: 50%;
+    border: none;
+    padding-left: 100px;
+    margin-left: 50px;
+}
+
+#nav {
+	text-align: center;
+	float: right;
+	clear: none;
+	margin-right: 30px;
+}
+
+ul li {
+    display: inline-block;
+   	padding-right: 120px; 
+}
+
+
+#lets-code {
+	width: 50%;
+    border: none;
+    font-size: 55px;
+    padding: 100px;
+    padding-top: 0px;
+    margin: 100px;
+}
+
+.center {
+	font-family: 'Unica One', cursive;
+	color: #b348d2;
+	text-align: center;
+	clear: both;
+}
+
+
+.portfolio-half-width {
+	width: 1200px;
+	clear: both;
+}
+
+.portfolio-left-half {
+	width: 500px;
+	padding: 50px;
+	float: left;
+	clear: left;
+	text-align: right;
+}
+
+.portfolio-right-half {
+	width: 500px;
+	padding: 50px;
+	float: right;
+	clear: right;
+}
+
+.about-full {
+	background-image: url('../img/about.png');
+	background-size: 900px;
+	background-repeat: no-repeat;
+	background-position: center;
+	color:#000000;
+	float: left;
+	clear: both;
+	width: 1200px;
+	height: 500px;
+}
+
+#about-half-width {
+	width: 50%;
+	padding-right: 80px;
+	padding-left: 65px;	
+	margin: 100px;
+	font-size: 24px;
+	font-weight: 900;
+}
+
+.connect-third-width {
+	clear: both;
+	width:1200px;
+	margin: 100px;
+}
+
+#connect-first-third {
+	width: 350px;
+	display: inline;
+	text-align: center;
+	float: left;
+}
+
+#email {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#connect-second-third {
+	text-align: center;
+	width: 350px;
+    display: inline-block;
+	float: left;	
+}
+
+#social-media {
+    list-style-type: none;
+    text-align: center; 
+    padding: 0;
+    margin: 0;
+}
+
+#social-media li {
+    display: inline-block;
+    padding: 5px;
+}
+
+#connect-third-third {
+	width: 350px;
+	display: inline;
+	text-align: center;
+	float: left;	
+}
+
+#coffee {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#copyright {
+	text-align: center;
+	font-size: 12px;
+	clear: both;
+	padding: 100px;
+}
